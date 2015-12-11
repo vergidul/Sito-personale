@@ -11,6 +11,10 @@
 	@endif
 </div>
 <div class="form-group">
+	{!! Form::label('city', 'City') !!}
+	{!! Form::text('city', null, ['class' => 'form-control']) !!}
+</div>
+<div class="form-group">
 	{!! Form::label('password', 'Password') !!}
 	{!! Form::password('password', ['class' => 'form-control']) !!}
 </div>

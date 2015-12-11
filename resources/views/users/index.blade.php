@@ -15,6 +15,7 @@ Index
 				<li>{{$user->email}}</li>
 				<li>{{$user->id}}</li>
 				<li>{{$user->password}}</li>
+				<li>{{$user->city}}</li>
 			</ul>
 		</user>
 	@endforeach
