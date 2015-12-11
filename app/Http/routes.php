@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+	Route::get('/', 'HomeController@show');
+
+	Route::resource('users', 'UsersController');
+
+
+	

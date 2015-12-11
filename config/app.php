@@ -144,7 +144,10 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+    	// per aggiungere le flag
+    	Laracasts\Flash\FlashServiceProvider::class,
+    		// per gestire meglio le form
+    	Collective\Html\HtmlServiceProvider::class,
     ],
 
     /*
@@ -192,7 +195,9 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-
+    	'Flash'		=> Laracasts\Flash\Flash::class,
+    	'Form'		=> Collective\Html\FormFacade::class,
+   		'Html' 		=> Collective\Html\HtmlFacade::class,
     ],
 
 ];
