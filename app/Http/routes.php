@@ -16,9 +16,9 @@
 
 	Route::resource('users', 'UsersController');
 
-
+	Route::resource('articles', 'ArticlesController');
 	
-	//Route::get('users', 'AccountController@home');
+	Route::get('users', 'AccountController@home');
 	
 	// Authentication routes...
 	Route::get('auth/login', 'Auth\AuthController@getLogin');

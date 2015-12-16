@@ -19,7 +19,7 @@ Benvenuto
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Bootstrap theme</a>
+          <a class="navbar-brand" href="auth/login">Login</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -48,8 +48,8 @@ Benvenuto
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <h1>Buongiorno Turista!</h1>
-        <p>Oggi � un buon giorno per scoprire cose nuove!</p>
-        <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+        <p>Oggi è un buon giorno per scoprire cose nuove!</p>
+        <p><a href="{{action('UsersController@create')}}" class="btn btn-primary btn-lg" role="button">Scopri di più &raquo;</a></p>
       </div>
 
 

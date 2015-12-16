@@ -1,6 +1,10 @@
 <div class="form-group">
-	{!! Form::label('name', 'Name') !!}
+	{!! Form::label('name', 'Cognome e Nome') !!}
 	{!! Form::text('name', null, ['class' => 'form-control']) !!}
+</div>
+<div class="form-group">
+	{!! Form::label('city', 'Città') !!}
+	{!! Form::text('city', null, ['class' => 'form-control']) !!}
 </div>
 <div class="form-group">
 	{!! Form::label('email', 'Email') !!}
@@ -9,10 +13,6 @@
 	@else
 	{!! Form::email('email', null, ['class' => 'form-control', 'readonly' => true]) !!}
 	@endif
-</div>
-<div class="form-group">
-	{!! Form::label('city', 'City') !!}
-	{!! Form::text('city', null, ['class' => 'form-control']) !!}
 </div>
 <div class="form-group">
 	{!! Form::label('password', 'Password') !!}
